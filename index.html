@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MY FIRST PROJECT</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    
+    <body>
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <img src="https://iconnect.com.ng/wp-content/uploads/2021/02/iconnect-180x39.png">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Invest">Invest</a></li>
+                <li><a href="#Make Money">Make Money</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#Login">Login</a></li>
+                <li><a href="#Sign up">Sign up</a></li>
+                <li class="dropdownIcon"><a href="javascript:void(0)" onclick="dropdownMenu()">&#9776;</a></li>
+            </ul>
+        </nav>
+        
+        <div class="container">
+            <h1><b>Connect Easily <br> Earn Smartly</b></h1>
+            <p><b>Need Data & Cash? We've Got You Covered! Resell/Refer & Earn.</b></p>
+            <p>Get cheap data, airtime & pay bill fast & easier with instant delivery.</p>
+            <button class="Sign up">Sign up</button>
+            <button class="Login">Login</button>
+        </div> <br> <br>
+        <div class="point1">
+            <p class="point2"><b>WELCOME TO ICONNECT</b></p>
+            <h2>We Make Life Easier!</h2>
+            <p>Enjoy easy bill payment with a fast, secure and fully automated portal with first-class dedicated support team. You can also refer and resell data to earn up to N70,000 monthly.</p>
+        </div>
+<!--
+        <div class="container2">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                    <label>We're Reliable</label>
+                    <p>Our system is built on customers reliability & trust, payment infrastructures are fully top notch.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                    <label>24/7 Support</label>
+                    <p>We treat our customers like we treat our God! Our support team reply in minutes.</p>
+                    </div>
+                </div>
+             <div class="col-4">
+                <div class="box">
+                    <label>Timely reply</label>
+                    <p>Perform your online transactions swiftly without any delay. It's automated & we deliver in seconds.</p>
+                </div>
+            </div>
+         </div>
+        </div>
+-->
+        
+        
+        
+        
+        
+        <script>
+            function dropdownMenu() {
+                var x = document.getElementById("dropdownClick");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                    /* change topnav to topnav.responsive*/
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </body>
+</html>
